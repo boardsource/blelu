@@ -1,0 +1,12 @@
+#
+# Copyright (c) 2024 Kyle Brown
+# SPDX-License-Identifier: MIT
+#
+
+config BOARD_BLELUE_LEFT
+    bool "blelu left"
+    depends on SOC_NRF52840_QIAA
+
+config BOARD_BLELUE_RIGHT
+    bool "blelu right"
+    depends on SOC_NRF52840_QIAA

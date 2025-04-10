@@ -1,0 +1,16 @@
+file_format: "1"
+id: blelu
+name: BLELUE
+url:
+type: board
+arch: arm
+features:
+  - keys
+  - display
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - blelu_left
+  - blelu_right
