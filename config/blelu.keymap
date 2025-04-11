@@ -27,6 +27,12 @@
                         &kp LALT &kp LGUI &mo 1  &kp SPACE  &kp RET  &mo 2  &kp BSPC &kp RGUI
             >;
                 };
-            
+              extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
         };
 };

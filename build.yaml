@@ -19,5 +19,7 @@
 ---
 include:
   - board: blelu_left
-  - board: blelu_right
     snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+  - board: blelu_right
+
