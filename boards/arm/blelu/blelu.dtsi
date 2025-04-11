@@ -25,6 +25,8 @@
         zmk,display = &epd;
         zephyr,console = &cdc_acm_uart;
         zmk,matrix-transform = &default_transform;
+        zmk,physical-layout = &kata0510_lily58_layout;
+
     };
 
    default_transform: keymap_transform_0 {
